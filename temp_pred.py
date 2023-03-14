@@ -7,4 +7,3 @@ number = [[st.number_input('Input Temperature')]]
 if st.button('Predict'):
     st.success(model.predict(number))
 
-
